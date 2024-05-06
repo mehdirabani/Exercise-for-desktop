@@ -1,11 +1,58 @@
 /* ? ===> Import Main File  */
 @charset "utf8";
-@import url("./Layout-2.css");
 @import url("./resetCss.css");
+@import url("./Layout-2.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /* ? ===> Elements Style  */
-
+body {
+  font-family: "Poppins";
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
 /* ? ===> Utilites Class */
+.d-flex {
+  display: flex;
+}
 
 /* todo ===> Start Style Code  */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.nav {
+  margin-top: 1.25rem;
+  justify-content: space-between;
+}
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #5c48ee;
+}
+.nav__list {
+  gap: 1.3rem;
+}
+.nav__item {
+  cursor: pointer;
+}
+.nav__link {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+.nav__link:not(.nav__link--active):hover {
+  color: #5c48ee;
+}
+.nav__link--active {
+  background: #5c48ee;
+  color: #fff;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+}
+.nav__link--active:hover{
+  background: #0f1e6a;
+}
