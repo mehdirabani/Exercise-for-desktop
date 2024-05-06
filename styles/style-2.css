@@ -19,6 +19,8 @@ a {
 }
 
 /* todo ===> Start Style Code  */
+
+/* ! ===> Start Nav Css Code  */
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -53,8 +55,8 @@ a {
   background: #5c48ee;
   color: #fff;
   border-radius: 5px;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
 }
-.nav__link--active:hover{
+.nav__link--active:hover {
   background: #0f1e6a;
 }
