@@ -1,50 +1,11 @@
+/* ? ===> Import Main File  */
 @charset "utf8";
-@import url("./resetCss.css");
 @import url("./Layout-2.css");
+@import url("./resetCss.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-body {
-  font-family: "Poppins";
-}
-a {
-  text-decoration: none;
-  color: #000;
-}
+/* ? ===> Elements Style  */
 
-.container {
-  max-width: 1300px;
-  margin: 0 auto;
-}
+/* ? ===> Utilites Class */
 
-.nav {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav__logo {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #5c48ee;
-}
-.nav__menu {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.nav__menu-link {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #333;
-  border-radius: 5px;
-  padding: 0.5rem 2rem;
-  font-size: 1rem;
-  transition: all .3s ease;
-}
-.nav__menu-item--active {
-  background: #5c48ee;
-  color: #fff;
-}
-.nav__menu-link:not(.nav__menu-item--active):hover {
-  color: #5c48ee;
-}
+/* todo ===> Start Style Code  */
