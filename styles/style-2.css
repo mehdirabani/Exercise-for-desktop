@@ -26,6 +26,7 @@ a {
 .nav {
   margin-top: 1.25rem;
   justify-content: space-between;
+  align-items: center;
 }
 .nav__logo {
   font-size: 1.5rem;
@@ -34,6 +35,7 @@ a {
 }
 .nav__list {
   gap: 1.3rem;
+  align-items: center;
 }
 .nav__item {
   cursor: pointer;
