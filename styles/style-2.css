@@ -1,18 +1,22 @@
 /* ? ===> Import Main File  */
 @charset "utf8";
 @import url("./resetCss.css");
-@import url("./Layout-2.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /* ? ===> Elements Style  */
 body {
   font-family: "Poppins";
   color: #333;
+  line-height: 1.6;
 }
 a {
   text-decoration: none;
   color: #333;
 }
+img {
+  width: 100%;
+}
+
 /* ? ===> Utilites Class */
 .d-flex {
   display: flex;
@@ -59,4 +63,89 @@ a {
 }
 .nav__link--active:hover {
   background: #0f1e6a;
+}
+
+/* ! ===> Start Header Css Code  */
+.header {
+  height: calc(100vh - 100px);
+  align-items: center;
+}
+.header__left-side {
+  max-width: 50%;
+}
+.header__title {
+  font-size: 3rem;
+}
+.header__title-normal {
+  font-weight: 400;
+  display: block;
+}
+.header__title-color {
+  display: block;
+  font-weight: bold;
+  color: #5c48ee;
+}
+.header__title-weight {
+  display: block;
+  font-weight: bold;
+  color: #0f1e6a;
+}
+.header__description {
+  margin: 1rem 0 1.5rem 0;
+}
+.header__form {
+  align-items: center;
+}
+.header__input {
+  border: 0;
+  outline: none;
+  padding: 1rem;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.header__input-btn {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  background: #5c48ee;
+  color: #fff;
+  padding: 1rem;
+  border: 0;
+  outline: none;
+}
+.header__right-side {
+  max-width: 50%;
+}
+.header__image-wrapper {
+  max-width: 300px;
+  gap: 3rem;
+}
+.header__img-1,
+.header__img-2 {
+  border-radius: 10px;
+}
+.header__img-1 {
+  position: relative;
+}
+.header__img-2 {
+  transform: translateY(-7rem);
+}
+.header__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%,-50%);
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(92, 72, 238, 0.6),
+    rgba(15, 30, 106, 0.4)
+  );
+  backdrop-filter: blur(30px);
+  max-width: 310px;
+  width: 100%;
+}
+.header__list-item {
+  list-style: disc;
 }
